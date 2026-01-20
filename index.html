@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thiru's Portfolio</title>
+  <style>
+    /* Basic Reset & Body */
+    body { font-family: 'Arial', sans-serif; background: #f9f9f9; margin: 0; padding: 0; text-align: center; }
+    a { text-decoration: none; }
+
+    /* Header */
+    header { background: #0b79d0; color: white; padding: 40px 20px; }
+    .profile-img { width: 100px; height: 100px; border-radius: 50%; object-fit: cover; margin-bottom: 15px; border: 3px solid white; }
+    header h1 { margin: 0; font-size: 2.5em; }
+    header p { margin-top: 10px; font-size: 1.1em; }
+
+    /* Social Links */
+    .social-links { display: flex; justify-content: center; gap: 20px; margin: 20px 0; }
+    .social-links img { width: 40px; height: 40px; transition: transform 0.2s; }
+    .social-links img:hover { transform: scale(1.2); }
+
+    /* Projects */
+    .projects { display: flex; flex-wrap: wrap; justify-content: center; margin: 40px 0; gap: 20px; }
+    .project-card { background: white; padding: 20px; width: 260px; border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); transition: transform 0.2s; text-align: center; }
+    .project-card:hover { transform: translateY(-5px); }
+    .project-card img { width: 100%; border-radius: 12px; margin-bottom: 15px; }
+    .project-card h2 { margin: 0; font-size: 1.5em; }
+    .project-card h4 { margin: 5px 0 10px; font-weight: normal; color: #555; }
+    .project-card a { display: inline-block; margin-top: 10px; padding: 10px 15px; background: #0b79d0; color: white; border-radius: 8px; transition: background 0.2s; }
+    .project-card a:hover { background: #095a9d; }
+
+    /* Footer */
+    footer { text-align: center; padding: 20px; background: #0b79d0; color: white; }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      .projects { flex-direction: column; align-items: center; }
+      .project-card { width: 90%; }
+      .social-links { gap: 15px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>My Front End Projects</h1>
+  <p>Click on any project to view it separately</p>
+
+  <div class="social-links">
+    <a href="https://www.linkedin.com/in/thirudesigns11/" target="_blank"><img src="images/pngegg (12).png" alt="LinkedIn"></a>
+    <a href="https://github.com/thiruUIUX?tab=repositories" target="_blank"><img src="images/pngegg (14).png" alt="GitHub"></a>
+    <a href="https://behance.net/thiru" target="_blank"><img src="images/pngegg (13).png" alt="Behance"></a>
+     <a href="https://behance.net/thiru" target="_blank"><img src="images/pngegg (15).png" alt="Nakuri"></a>
+    <a href="thirumurugan.resume (1).pdf" target="_blank"><img src="images/pngegg (16).png" alt="Resume"></a>
+  </div>
+</header>
+
+<div class="projects">
+  <div class="project-card">
+    <h2>Project 1</h2>
+    <h4>Education System</h4>
+    <a href="https://github.com/thiruUIUX/education-system" target="_blank">View Project</a>
+  </div>
+
+  <div class="project-card">
+    <h2>Project 2</h2>
+    <h4>Success Landing Page</h4>
+    <a href="https://github.com/thiruUIUX/success-landing-page" target="_blank">View Project</a>
+  </div>
+
+  <div class="project-card">
+    <h2>Project 3</h2>
+    <h4>Business Startup Webpage</h4>
+    <a href="https://github.com/thiruUIUX/Business-Startup-website" target="_blank">View Project</a>
+  </div>
+
+  <div class="project-card">
+    <h2>Project 4</h2>
+    <h4>Register Form</h4>
+    <a href="https://github.com/thiruUIUX/Register-form" target="_blank">View Project</a>
+  </div>
+
+  <div class="project-card">
+    <h2>Project 5</h2>
+    <h4>Solution Page</h4>
+    <a href="https://github.com/thiruUIUX/solution-page" target="_blank">View Project</a>
+  </div>
+
+  <div class="project-card">
+    <h2>Project 6</h2>
+    <h4>Product Contact Form</h4>
+    <a href="https://github.com/thiruUIUX/contact-form" target="_blank">View Project</a>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2026 Thiru | All rights reserved</p>
+</footer>
+
+</body>
+</html>
